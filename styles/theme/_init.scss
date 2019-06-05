@@ -1,0 +1,55 @@
+html {
+  background-color: $bg-global;
+  font-family: $font-family-global;
+  font-weight: $font-weight-global;
+  font-size: $font-size-global;
+  color: $font-color-global;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-global;
+}
+
+h1 {
+  font-size: $font-size-header-main;
+}
+
+h2 {
+  font-size: $font-size-header-xlarge;
+}
+
+h3 {
+  font-size: $font-size-header-large;
+}
+
+h4 {
+  font-size: $font-size-header-global;
+}
+
+h5 {
+  font-size: $font-size-header-small;
+}
+
+h6 {
+  font-size: $font-size-header-xsmall;
+}
+
+.tm-background-tertiary {
+  background-color: $bg-global-tertiary;
+}
+
+.tm-button-tertiary {
+  background-color: $bg-button-tertiary;
+
+  &:hover, &:focus, &:active {
+    background-color: darken($bg-button-tertiary, 20%);
+  }
+}
+
+.tm-button-muted {
+  background-color: $bg-button-muted;
+
+  &:hover, &:focus, &:active {
+    background-color: darken($bg-button-muted, 20%);
+  }
+}
