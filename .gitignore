@@ -1,7 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea
+.idea/
 .idea/inspectionProfiles/
 .idea/misc.xml
 .idea/modules.xml
 .idea/uspeh.iml
 .idea/workspace.xml
+.idea/dictionaries
+.idea/vcs.xml
